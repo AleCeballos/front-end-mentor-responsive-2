@@ -1,0 +1,125 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+
+
+
+*{   margin: 0 auto !important;
+     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+header{
+width: 20rem;
+
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+
+
+
+}
+
+
+
+
+img{
+
+    float: right;
+}
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
+#supervisor{
+
+     
+    height: 300px;
+    
+    border-top: 4px solid  hsl(180, 62%, 55%);
+    text-align: left;
+    border-radius:2%;
+    /* background-color: rgb(183, 218, 231); */
+    box-shadow: 4px 4px 15px rgb(138, 152, 168);   
+
+}
+
+#teamBuilder{
+ 
+    height: 300px;
+    
+   
+    border-top: 4px solid hsl(0, 78%, 62%);
+    text-align: left;
+    border-radius:2%;  
+    /* background-color: rgb(231, 183, 183); */
+ 
+    box-shadow: 4px 4px 15px rgb(138, 152, 168);      
+}
+
+#karma{
+    
+    height: 300px;
+    
+    
+    border-top: 4px solid hsl(34, 97%, 64%);
+  
+    text-align: left;
+    border-radius:2%;
+    /* background-color: rgb(228, 231, 183); */
+     margin-top: 4%;
+     box-shadow: 4px 4px 15px rgb(138, 152, 168);   
+}
+
+#calculator{
+
+
+    height: 300px;
+    
+    border-top: 4px solid hsl(212, 86%, 64%);
+    text-align: left;
+    border-radius:2%;
+    /* background-color: rgb(99, 91, 211); */
+    box-shadow: 4px 4px 15px rgb(138, 152, 168);   
+}
+
+.titulo{
+
+    font-weight: bold;
+    float: left;
+    padding-left: 6%;
+}
+
+#powered{
+
+    font-weight: bold;
+}
+
+.textoPrincipal{
+
+    font-size: x-large;
+}
+
+.textoSecundario{
+
+    font-size: small;
+    color: gray;
+    padding: 5%;
+   
+}
+
+#reliable{
+
+    color: rgb(158, 158, 158);
+}
+
+
+
+@media (min-width: 1024px) { 
+
+    #containerCentral{margin-left:2% !important;
+        margin-right:2% !important;
+    }
+ }
